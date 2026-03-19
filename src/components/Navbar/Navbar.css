@@ -46,5 +46,9 @@ ul li:hover::after {
 ul li:last-child::after {
   display: none;
 }
+.dark-nav{
+  background: #212AE0;
+  transition: 0.5s;
+}
 
 
