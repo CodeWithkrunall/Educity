@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Programs from './components/Programs/Programs'
+import Title from './components/Title/Title'
 
 const App = () => {
   return (
@@ -11,9 +12,9 @@ const App = () => {
 
 
       <div className="container">
+        <Title subTitle='Out PROGRAM' title='what we offer'/>
         <Programs/>
       </div>
-      
     </div>
   )
 }

@@ -34,7 +34,7 @@ ul li::after {
   height: 3px;
   background: white;
   transform: translateX(-50%);
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 ul li:hover::after {

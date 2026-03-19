@@ -16,7 +16,6 @@ const Navbar = () => {
             <li> <button className='btn'>Contact us</button></li>
         </ul>
 
-
     </nav>
   )
 }

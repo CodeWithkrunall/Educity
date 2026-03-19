@@ -31,16 +31,8 @@ a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 6px 0 #8043d0, 0 8px 15px rgba(0,0,0,0.1);
-  transition: all 0.1s ease;
+  
 }
-
-.btn:active{
-  transform: translateY(3px);
-  box-shadow: 0 2px 0 #cfcfcf, 0 3px 8px rgba(0,0,0,0.1);
-}
-
-
 .btn img{
   width: 20px;
   margin-left: 10px;
