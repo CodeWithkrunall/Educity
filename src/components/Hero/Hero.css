@@ -2,8 +2,14 @@
     width: 100%;
     min-height: 100vh;
     
-    background:linear-gradient(rgba(8,0,58,0.7) ,rgba(8,0,58,0.7)), url('../../assets/hero.png');
-     background-size: cover;
+    background: linear-gradient(
+  to bottom,
+    rgba(10, 20, 80, 0.75) 0%,    /* top — dark */
+    rgba(10, 20, 80, 0.45) 40%,   /* middle — thoda light (image dikhegi) */
+    rgba(10, 20, 80, 0.65) 100%   /* bottom — thoda dark wapas */
+),url('../../assets/hero6.png');
+     
+    background-size: cover;
      background-position: center;
      color: #fff;
      display: flex;
@@ -15,15 +21,25 @@
 .hero-text{
     text-align: center;
     max-width: 800px;
+  
 }
 .hero-text h1{
     font-size: 60px;
     font-weight: 600;
+     color: #ffffff;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,0.4),   /* tight shadow — edges sharp */
+    0 4px 24px rgba(0,0,0,0.3);  /* wide shadow — depth */
 }
 .hero-text p{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+      color: #ffffff;
+  text-shadow:
+    0 2px 4px rgba(0,0,0,0.4),   /* tight shadow — edges sharp */
+    0 4px 24px rgba(0,0,0,0.3);  /* wide shadow — depth */
+  
 
     
 }
